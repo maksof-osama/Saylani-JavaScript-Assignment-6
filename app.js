@@ -464,8 +464,19 @@
 
 
 // Task # 8
-
-
+// var a = prompt("Enter Base of a Right angle Triangle");
+// var b = prompt("Enter Perpendicular of a Right angle Triangle");
+// function hypotenuse(a, b) {
+//     function square(x) { return x*x; }
+//     return Math.sqrt(square(a) + square(b));
+//  }
+//  function secondFunction(){
+//     var result;
+//     result = hypotenuse(a,b);
+//     document.write ( result );
+//  }
+//  secondFunction();
+ 
 
 // Task # 9
 // var val01 = prompt("Please give the width of the rectangle:");
@@ -491,3 +502,61 @@
 // console.log(isPalindrome(instr));
 
 
+// Task # 11
+// function uppercase(str)
+// {
+//   var array1 = str.split(' ');
+//   var newarray1 = [];   
+//   for(var x = 0; x < array1.length; x++){
+//       newarray1.push(array1[x].charAt(0).toUpperCase()+array1[x].slice(1));
+//   }
+//   return newarray1.join(' ');
+// }
+// console.log(uppercase("the quick brown fox"));
+
+
+// Task # 12
+// function find_longest_word(str)
+// {
+//   var array1 = str.match(/\w[a-z]{0,}/gi);
+//   var result = array1[0];
+//   for(var x = 1 ; x < array1.length ; x++)
+//   {
+//     if(result.length < array1[x].length)
+//     {
+//     result = array1[x];
+//     } 
+//   }
+//   return result;
+// }
+// console.log(find_longest_word('Web Development Tutorial'));
+
+
+// Task # 13
+// function char_count(str, letter) 
+// {
+//  var letter_Count = 0;
+//  for (var position = 0; position < str.length; position++) 
+//  {
+//     if (str.charAt(position) == letter) 
+//       {
+//       letter_Count += 1;
+//       }
+//   }
+//   return letter_Count;
+// }
+// console.log(char_count('JSResourceS.com', 'o'));
+
+
+// Task # 14
+// var radius = parseInt(prompt("Enter Radius!"));
+// function findCircumference(findCircum) {
+//     var circumference = Math.PI * 2 * findCircum;
+//     console.log("Circumference of Circle = " + circumference);
+// }
+// findCircumference(radius);
+// function findAreaOfCircle(findArea) {
+//     var area = Math.PI * findArea * findArea;
+//     console.log("Area of Circle = " + area);
+// }
+// findAreaOfCircle(radius);
